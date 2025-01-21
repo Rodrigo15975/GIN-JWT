@@ -1,0 +1,44 @@
+*.exe
+*.so
+*.dll
+*.dylib
+*.test
+*.test.exe
+
+# Output of the go build command unless it's explicitly named in the source code or a subdirectory of src/
+# The pattern **/[!]_test/go-[0-9]*.[0-9]*[!_*][0-9]* matches test binaries in subdirectories of src/
+bin/
+.coverprofile
+_statik/
+
+# intellij idea
+.idea/
+
+# node_modules (for JavaScript dependencies)
+node_modules/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# go report card
+.goreportcard.yml
+
+# go coverage
+*.out
+*.cov
+
+# tmp files
+*.tmp
+*.temp
+
+# ignore gin-vue-admin
+gin-vue-admin
